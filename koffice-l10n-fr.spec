@@ -1,5 +1,5 @@
 Name: koffice-l10n-fr
-Version: 2.1.1
+Version: 2.1.82
 Release: %mkrel 1
 Summary: Language files for KOffice French
 Group: System/Internationalization
@@ -7,7 +7,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License: GPLv2+
 URL: http://www.koffice.org
 BuildArch: noarch
-Source: ftp://ftp.kde.org/pub/kde/stable/koffice-%version/src/koffice-l10n/%name-%version.tar.bz2
+Source: ftp://ftp.kde.org/pub/kde/unstable/koffice-%version/src/koffice-l10n/%name-%version.tar.bz2
 BuildRequires: gettext >= 0.15
 BuildRequires: kdelibs4-devel
 Requires: locales-fr

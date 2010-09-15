@@ -8,7 +8,6 @@ License: GPLv2+
 URL: http://www.koffice.org
 BuildArch: noarch
 Source: ftp://ftp.kde.org/pub/kde/unstable/koffice-%version/src/koffice-l10n/%name-%version.tar.bz2
-Patch0: koffice-l10n-fr-2.2.0-fix-build.patch
 BuildRequires: gettext >= 0.15
 BuildRequires: kdelibs4-devel
 Requires: locales-fr
@@ -26,7 +25,6 @@ Provides French translations for KOffice.
 
 %prep
 %setup -q -n %name-%version
-%patch0 -p0 -b .orig
 
 %build
 %cmake_kde4

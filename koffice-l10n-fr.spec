@@ -1,5 +1,5 @@
 Name: koffice-l10n-fr
-Version: 2.3.0
+Version: 2.3.1
 Release: %mkrel 1
 Summary: Language files for KOffice French
 Group: System/Internationalization

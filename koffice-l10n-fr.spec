@@ -5,7 +5,7 @@ Summary: Language files for KOffice French
 Group: System/Internationalization
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License: GPLv2+
-URL: http://www.koffice.org
+URL: https://www.koffice.org
 BuildArch: noarch
 Source: ftp://ftp.kde.org/pub/kde/stable/koffice-%version/src/koffice-l10n/%name-%version.tar.bz2
 BuildRequires: gettext >= 0.15
